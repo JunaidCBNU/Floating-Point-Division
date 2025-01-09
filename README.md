@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/5e043cf6-6191-4340-aa2d-1f9c1c93ed8c)
+
 # Floating-Point-Division
 ## 32-bit Floating Point Division
 
@@ -23,4 +25,6 @@ assign mantissa_C = (A>B) ? {Quotient[Divisor_DW-1:0]} : {(Quotient[Divisor_DW-2
 
 ### 5.	 After finding all the three parts of C, we merge it as follows:
 assign  C_prev = (A == 0 | B == 0) ? 0 : (en) ? {sign_C, exponent_C, mantissa_C} : 0;
+![image](https://github.com/user-attachments/assets/333688c0-c3f8-468e-884d-ed1cc04ee0d4)
+
 
